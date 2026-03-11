@@ -24,16 +24,22 @@
                     <td>Alexsander Rodrigues</td>
                     <td>alex_alves.x@hotmail.com</td>
                     <td>Administrador</td>
-                    <td>Ativo</td>
-                    <td>Editar</td>
+                    <td><span class="badge ativo">Ativo</span></td>
+                    <td><button class="btn-icon"><i class="fa-solid fa-pen">Editar</td>
+                    <td><button class="btn-icon"><i class="fa-solid fa-circle-xmark">Excluir</i></td>
+                    <td><button class="btn-icon"><i class="fa-solid fa-file-lines">Registro</i></td\>
                 </tr>
                 <tr>
                     <td>02</td>
                     <td>Eric Freitas</td>
                     <td>eric@unifev.edu.br</td>
                     <td>Editor</td>
-                    <td>Ativo</td>
-                    <td>Editar</td>
+                    <td><span class="badge ativo">Ativo</span></td>
+                    <td><button class="btn-icon"><i class="fa-solid fa-pen"></i>Editar</td>
+                    <td><button class="btn-icon"><i class="fa-solid fa-circle-xmark">Excluir</i></td>
+                    <td><button class="btn-icon"><i class="fa-solid fa-file-lines">Registro</i></td\>
+
+
                 </tr>
             </tbody>
         </table>
