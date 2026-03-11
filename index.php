@@ -20,7 +20,7 @@
         <div class="perfil-usuario">
             <img src="https://ui-avatars.com/api/?name=Alex+Alves&background=008080&color=fff" alt="Avatar">
 
-            <span>Alex ALves</span>
+            <span>Alex Alves</span>
         </div>
     </nav>
 
