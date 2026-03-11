@@ -1,3 +1,6 @@
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+
 .dashboard-container {
     display: flex;
     align-items: stretch;
@@ -170,6 +173,6 @@ tbody tr:hover {
     font-size: 16px;
 }
 
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
 
-/* Seus outros estilos abaixo... */
+
+
