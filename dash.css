@@ -5,9 +5,7 @@
     display: flex;
     align-items: stretch;
     flex: 1;
-
 }
-
 main {
     flex: 1;
     padding: 30px;
@@ -17,10 +15,8 @@ nav {
     width: 200px;
     background-color: #2c3e50;
     padding: 20px;
-
     display: flex;
     flex-direction: column;
-
 }
 nav ul{
     display: flex;
@@ -40,7 +36,6 @@ nav a {
 nav a:hover {
     background-color: #34495e;
     color: #ffcc00;
-
 }
 .perfil-usuario { 
     display: flex;
@@ -51,18 +46,14 @@ nav a:hover {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     margin-top: auto;
 }
-
 .perfil-usuario img {
     width: 40px;
     border-radius: 50%;
-
 }
-
 .container-card {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-
 }
 article {
     display: flex;
@@ -81,18 +72,14 @@ article h2 {
 article p {
     margin-bottom: 20px;
     color: #555;
-
 }
-
 body {
     background-color: #dfdfdf;
     font-family: 'Courier New', Courier, monospace;
     color: #333333;
-
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-
 }
 footer {
     background-color: #333;
@@ -100,14 +87,11 @@ footer {
     text-align: center;
     padding: 15px;
     font-size: 14px;
-
 }
-
 *{
     margin: 0;
     padding: 0;
 }
-
 .btn {
     margin-top: auto;
     display: inline-block;
@@ -119,12 +103,9 @@ footer {
     border-radius: 4px;
     transition: background 0.3;
 }
-
 .btn:hover {
     background-color: #003366;
-
 }
-
 /*Container da Tabela */
 .table-resposive {
     background-color: white;
@@ -132,12 +113,10 @@ footer {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     overflow: hidden;
 }
-
 table {
     width: 100%;
     border-collapse: collapse;
 }
-
 /* Cabeçalho Profissional */
 th {
     background-color: #2c3e50;
@@ -147,7 +126,6 @@ th {
     font-size: 13px;
     text-transform: uppercase;
 }
-
 /*Células de Dados */
 td {
     padding: 15px;
@@ -155,16 +133,13 @@ td {
     font-size: 14px;
     color: #444;
 }
-
 /* Efeito Zebra e Hover */
 tbody tr:nth-child(even) {
     background-color: #f9f9f9;
 }
-
 tbody tr:hover {
     background-color: #f1f7ff; /*Destaque suave ao passar o omouse */
 }
-
 .btn-icon {
     background: none;
     border: none;

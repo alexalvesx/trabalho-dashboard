@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="dash.css">
-
     </head>
 <main>
     <div class="table-responsive">
@@ -40,8 +39,6 @@
                     <td><button class="btn-icon"><i class="fa-solid fa-pen"></i>Editar</td>
                     <td><button class="btn-icon"><i class="fa-solid fa-circle-xmark"></i>Excluir</td>
                     <td><button class="btn-icon"><i class="fa-solid fa-file-lines"></i>Registro</td\>
-
-
                 </tr>
             </tbody>
         </table>
