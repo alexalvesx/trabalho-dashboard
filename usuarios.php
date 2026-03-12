@@ -14,9 +14,9 @@
                     <th>E-mail</th>
                     <th>Acesso</th>
                     <th>Status</th>
-                    <th></th>
-                    <th>Ações</th>
-                    <th></th>
+                    <th>Editar</th>
+                    <th>Excluir</th>
+                    <th>Registro</th>
                 </tr> 
             </thead>
             <tbody>
@@ -26,9 +26,9 @@
                     <td>alex_alves.x@hotmail.com</td>
                     <td>Administrador</td>
                     <td><span class="badge ativo">Ativo</span></td>
-                    <td><button class="btn-icon"><i class="fa-solid fa-pen"></i>Editar</td>
-                    <td><button class="btn-icon"><i class="fa-solid fa-circle-xmark"></i>Excluir</td>
-                    <td><button class="btn-icon"><i class="fa-solid fa-file-lines"></i>Registro</td\>
+                    <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></td>
+                    <td><button class="btn-icon"><i class="fa-solid fa-circle-xmark"></i></td>
+                    <td><button class="btn-icon"><i class="fa-solid fa-file-lines"></i></td\>
                 </tr>
                 <tr>
                     <td>02</td>
@@ -36,9 +36,9 @@
                     <td>eric@unifev.edu.br</td>
                     <td>Editor</td>
                     <td><span class="badge ativo">Ativo</span></td>
-                    <td><button class="btn-icon"><i class="fa-solid fa-pen"></i>Editar</td>
-                    <td><button class="btn-icon"><i class="fa-solid fa-circle-xmark"></i>Excluir</td>
-                    <td><button class="btn-icon"><i class="fa-solid fa-file-lines"></i>Registro</td\>
+                    <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></td>
+                    <td><button class="btn-icon"><i class="fa-solid fa-circle-xmark"></i></td>
+                    <td><button class="btn-icon"><i class="fa-solid fa-file-lines"></i></td\>
                 </tr>
             </tbody>
         </table>
