@@ -149,8 +149,8 @@ tbody tr:hover {
 }
 .icones{
 /* Minhas modificações */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalemnte */
+    place-items: center;
+   
 }
 
 
