@@ -146,8 +146,9 @@ tbody tr:hover {
     color: #004a8d;
     cursor: pointer;
     font-size: 16px;
-
-    /* Minhas modificações */
+}
+.icones{
+/* Minhas modificações */
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalemnte */
 }
