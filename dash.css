@@ -155,8 +155,6 @@ tbody tr:hover {
     justify-content: center; 
     /* Centraliza verticalmente */
     align-items: center;     
-    /* Garante que o conteúdo não quebre a linha */
-    text-align: center;
 }
 
 
