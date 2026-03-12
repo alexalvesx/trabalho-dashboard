@@ -14,9 +14,9 @@
                     <th>E-mail</th>
                     <th>Acesso</th>
                     <th>Status</th>
-                    <th class="icones">Editar</th>
-                    <th class="icones">Excluir</th>
-                    <th class="icones">Registro</th>
+                    <th>Editar</th>
+                    <th>Excluir</th>
+                    <th>Registro</th>
                 </tr> 
             </thead>
             <tbody>
