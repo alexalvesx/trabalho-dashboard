@@ -154,7 +154,9 @@ tbody tr:hover {
     /* Centraliza horizontalmente */
     justify-content: center; 
     /* Centraliza verticalmente */
-    align-items: center;     
+    align-items: center;   
+    
+    text-align: center;
 }
 
 

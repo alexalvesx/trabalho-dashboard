@@ -14,9 +14,9 @@
                     <th>E-mail</th>
                     <th>Acesso</th>
                     <th>Status</th>
-                    <th>Editar</th>
-                    <th>Excluir</th>
-                    <th>Registro</th>
+                    <th class="icones">Editar</th>
+                    <th class="icones">Excluir</th>
+                    <th class="icones">Registro</th>
                 </tr> 
             </thead>
             <tbody>
@@ -25,10 +25,10 @@
                     <td>Alexsander Rodrigues</td>
                     <td>alex_alves.x@hotmail.com</td>
                     <td>Administrador</td>
-                    <td class="icones"><span class="badge ativo">Ativo</span></td>
-                    <td class="icones"><button class="btn-icon"><i class="fa-solid fa-pen"></i></td>
-                    <td class="icones"><button class="btn-icon"><i class="fa-solid fa-circle-xmark"></i></td>
-                    <td class="icones"><button class="btn-icon"><i class="fa-solid fa-file-lines"></i></td\>
+                    <td><span class="badge ativo">Ativo</span></td>
+                    <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></td>
+                    <td><button class="btn-icon"><i class="fa-solid fa-circle-xmark"></i></td>
+                    <td><button class="btn-icon"><i class="fa-solid fa-file-lines"></i></td>
                 </tr>
                 <tr>
                     <td>02</td>
@@ -36,9 +36,9 @@
                     <td>eric@unifev.edu.br</td>
                     <td>Editor</td>
                     <td><span class="badge ativo">Ativo</span></td>
-                    <td class="icones"><button class="btn-icon"><i class="fa-solid fa-pen"></i></td>
-                    <td class="icones"><button class="btn-icon"><i class="fa-solid fa-circle-xmark"></i></td>
-                    <td class="icones"><button class="btn-icon"><i class="fa-solid fa-file-lines"></i></td\>
+                    <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></td>
+                    <td><button class="btn-icon"><i class="fa-solid fa-circle-xmark"></i></td>
+                    <td><button class="btn-icon"><i class="fa-solid fa-file-lines"></i></td>
                 </tr>
             </tbody>
         </table>
