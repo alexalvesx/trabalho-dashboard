@@ -20,7 +20,12 @@
             </div>
         </nav>
 <main>
-    <div class="table-responsive">
+<div class="header-contente">
+    <h2>Gestão de Usuários</h2>
+    <p>Visualize e gerencie as permissões de usuário do sistema.</p>
+</div>
+
+    
         <table>
             <thead>
                 <tr>
@@ -57,7 +62,7 @@
                 </tr>
             </tbody>
         </table>
-    </div>
+    
 </main>
 </div>
 <footer>
