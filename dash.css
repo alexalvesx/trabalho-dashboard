@@ -256,6 +256,17 @@ input:focus {
     cursor: pointer;
     font-weight: bold;
 }
-.btn-cancel:hover{
+.btn-cancel:hover {
     color: red;
+}
+
+.badge-ativo {
+    text-decoration: none;
+    background-color: #0def77;
+    color: rgb(19, 18, 18);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
 }
