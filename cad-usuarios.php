@@ -16,7 +16,7 @@
                     <p>Preencha os dados abaixo para registrar um novo acesso.</p>
                 </div>
 
-                <form action="processa.php" method="POST">
+                <form action="insere-usuario.php" method="POST">
                     <div class="form-group">
                         <label for="nome">Nome Completo</label>
                         <input type="text" id="nome" name="nome" placeholder="Ex: Eric Freitas" required>
@@ -43,7 +43,7 @@
                     </div>
 
                     <div class="form-action">
-                        <button type="submit" class="btn-save"><i class="fa-floppy-disk"></i>Finalizar Cadastro</button>
+                        <button type="submit" class="btn-save">Finalizar Cadastro</button>
                         <a href="index.php" class="btn-cancel">Cancelar</a>
                     </div>
 
