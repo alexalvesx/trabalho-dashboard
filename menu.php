@@ -1,3 +1,4 @@
+<?php $usuarioLogado = "Alexsander Rodrigues"; ?>
 <nav>
     <ul>
         <li><a href="#">Início</a></li>
