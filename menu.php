@@ -7,7 +7,7 @@
         <li><a href="#">Configurações</a></li>
     </ul>
     <div class="perfil-usuario">
-        <img src="https://ui-avatars.com/api/?name=Alex+Alves&background=008080&color=fff" alt="Avatar">
+        <img src="https://ui-avatars.com/api/?name=<?php echo urlencode($usuarioLogado); ?>&background=008080&color=fff" alt="Avatar">
         <span><?php echo $usuarioLogado; ?></span>
     </div>
 </nav>
