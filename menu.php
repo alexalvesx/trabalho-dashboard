@@ -7,6 +7,6 @@
     </ul>
     <div class="perfil-usuario">
         <img src="https://ui-avatars.com/api/?name=Alex+Alves&background=008080&color=fff" alt="Avatar">
-        <span>Alex Alves</span>
+        <span><?php echo $usuarioLogado; ?></span>
     </div>
 </nav>

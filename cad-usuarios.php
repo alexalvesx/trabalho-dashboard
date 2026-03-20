@@ -24,13 +24,13 @@
 
                     <div class="form-group">
                         <label for="email">E-mail</label>
-                        <input type="e-mail" id="e-mail" name="e-mail" placeholder="nome@empresa.com" required>
+                        <input type="e-mail" id="email" name="email" placeholder="nome@empresa.com" required>
                     </div>
 
                     <div class="form-row">
                         <div class="form-group flex-1">
                             <label for="senha">Senha</label>
-                            <input type="password" id="senha" name="nome" required>
+                            <input type="password" id="senha" name="senha" required>
                         </div>
 
                         <div class="form-group flex-1">

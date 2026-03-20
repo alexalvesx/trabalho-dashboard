@@ -33,8 +33,18 @@
                     <td>01</td>
                     <td>Alexsander Rodrigues</td>
                     <td>alex_alves.x@hotmail.com</td>
-                    <td>Administrador</td>
-                    <td><span class="badge ativo">Ativo</span></td>
+                    <td><?php
+                    // Simulando o nível que viria do banco de dados
+                     $nivelAcesso = 2; 
+
+                    if ($nivelAcesso == 2) {
+                        // Se for 2, renderiza o HTML do Admin
+                         echo '<span class="badge-ativo">Administrador</span>';
+                    } else {
+                        // Se for qualquer outro valor, renderiza o Usuário
+                         echo '<span class="badge-inativo">Usuário Comum</span>';
+                    }?></td>
+                    <td><span class="badge-ativo">Ativo</span></td>
                     <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></td>
                     <td><button class="btn-icon"><i class="fa-solid fa-circle-xmark"></i></td>
                     <td><button class="btn-icon"><i class="fa-solid fa-file-lines"></i></td>
@@ -43,8 +53,18 @@
                     <td>02</td>
                     <td>Eric Freitas</td>
                     <td>eric@unifev.edu.br</td>
-                    <td>Editor</td>
-                    <td><span class="badge ativo">Ativo</span></td>
+                    <td><?php
+                    // Simulando o nível que viria do banco de dados
+                     $nivelAcesso = 2; 
+
+                    if ($nivelAcesso == 2) {
+                        // Se for 2, renderiza o HTML do Admin
+                         echo '<span class="badge-ativo">Administrador</span>';
+                    } else {
+                        // Se for qualquer outro valor, renderiza o Usuário
+                         echo '<span class="badge-inativo">Usuário Comum</span>';
+                    }?></td>
+                    <td><span class="badge-ativo">Ativo</span></td>
                     <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></td>
                     <td><button class="btn-icon"><i class="fa-solid fa-circle-xmark"></i></td>
                     <td><button class="btn-icon"><i class="fa-solid fa-file-lines"></i></td>
@@ -53,8 +73,18 @@
                     <td>03</td>
                     <td>John Lennon da Silva</td>
                     <td>john@outlook.com</td>
-                    <td>Usuário</td>
-                    <td><span class="badge ativo">Inativo</span></td>
+                    <td><?php
+                    // Simulando o nível que viria do banco de dados
+                     $nivelAcesso = 0; 
+
+                    if ($nivelAcesso == 2) {
+                        // Se for 2, renderiza o HTML do Admin
+                         echo '<span class="badge-ativo">Administrador</span>';
+                    } else {
+                        // Se for qualquer outro valor, renderiza o Usuário
+                         echo '<span class="badge-inativo">Usuário Comum</span>';
+                    }?></td>
+                    <td><span class="badge-inativo">Inativo</span></td>
                     <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></td>
                     <td><button class="btn-icon"><i class="fa-solid fa-circle-xmark"></i></td>
                     <td><button class="btn-icon"><i class="fa-solid fa-file-lines"></i></td>
