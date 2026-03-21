@@ -1,10 +1,11 @@
 <style>
-.ativo {
-    color: blue;
-}
-.inativo {
-    color: red;
-}
+    .ativo {
+        color: blue;
+    }
+
+    .inativo {
+        color: red;
+    }
 </style>
 
 

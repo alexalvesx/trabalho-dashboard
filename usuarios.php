@@ -14,7 +14,7 @@
     <p>Visualize e gerencie as permissões de usuário do sistema.</p>
 </div>
 
-    
+    <p type="button"><a class="cadastro" href="cad-usuarios.php">Cadastro de Usuários</a></p>
         <table>
             <thead>
                 <tr>
@@ -39,12 +39,12 @@
 
                     if ($nivelAcesso == 2) {
                         // Se for 2, renderiza o HTML do Admin
-                         echo '<span class="badge-ativo">Administrador</span>';
+                         echo '<span class="badge admin">Administrador</span>';
                     } else {
                         // Se for qualquer outro valor, renderiza o Usuário
-                         echo '<span class="badge-inativo">Usuário Comum</span>';
+                         echo '<span class="badge user">Usuário Comum</span>';
                     }?></td>
-                    <td><span class="badge-ativo">Ativo</span></td>
+                    <td><span class="badge ativo">Ativo</span></td>
                     <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></td>
                     <td><button class="btn-icon"><i class="fa-solid fa-circle-xmark"></i></td>
                     <td><button class="btn-icon"><i class="fa-solid fa-file-lines"></i></td>
@@ -59,12 +59,12 @@
 
                     if ($nivelAcesso == 2) {
                         // Se for 2, renderiza o HTML do Admin
-                         echo '<span class="badge-ativo">Administrador</span>';
+                         echo '<span class="badge admin">Administrador</span>';
                     } else {
                         // Se for qualquer outro valor, renderiza o Usuário
-                         echo '<span class="badge-inativo">Usuário Comum</span>';
+                         echo '<span class="badge user">Usuário Comum</span>';
                     }?></td>
-                    <td><span class="badge-ativo">Ativo</span></td>
+                    <td><span class="badge ativo">Ativo</span></td>
                     <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></td>
                     <td><button class="btn-icon"><i class="fa-solid fa-circle-xmark"></i></td>
                     <td><button class="btn-icon"><i class="fa-solid fa-file-lines"></i></td>
@@ -79,12 +79,12 @@
 
                     if ($nivelAcesso == 2) {
                         // Se for 2, renderiza o HTML do Admin
-                         echo '<span class="badge-ativo">Administrador</span>';
+                         echo '<span class="badge admin">Administrador</span>';
                     } else {
                         // Se for qualquer outro valor, renderiza o Usuário
-                         echo '<span class="badge-inativo">Usuário Comum</span>';
+                         echo '<span class="badge user">Usuário Comum</span>';
                     }?></td>
-                    <td><span class="badge-inativo">Inativo</span></td>
+                    <td><span class="badge inativo">Inativo</span></td>
                     <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></td>
                     <td><button class="btn-icon"><i class="fa-solid fa-circle-xmark"></i></td>
                     <td><button class="btn-icon"><i class="fa-solid fa-file-lines"></i></td>

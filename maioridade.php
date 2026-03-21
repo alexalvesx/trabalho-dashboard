@@ -8,7 +8,7 @@ $nome = $_GET["nome"];
 
 echo $nome;
 
-if($idade >= 18){
+if ($idade >= 18) {
     echo "Adulto";
 
 } else {

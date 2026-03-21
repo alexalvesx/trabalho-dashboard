@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html LANG="pt-br">
 
@@ -6,10 +5,11 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="dash.css">
 </head>
-<?php include 'menu.php'; ?>
+
 <body>
     <div class="dashboard-container">
-        
+        <?php include 'menu.php'; ?>
+
         <main>
             <section class="container-card">
                 <article>
@@ -29,7 +29,7 @@
                 </article>
         </main>
     </div>
-   <?php include'footer.php';?>
+    <?php include 'footer.php'; ?>
 </body>
 
 </html>

@@ -256,28 +256,56 @@ input:focus {
     cursor: pointer;
     font-weight: bold;
 }
+
 .btn-cancel:hover {
     color: red;
 }
 
-.badge-ativo {
+.ativo {
     text-decoration: none;
-    background-color: #0def77;
-    color: rgb(255, 255, 255);
+    background-color: #16b660;
+    color: rgb(21, 105, 4);
+  
+}
+
+.inativo {
+    text-decoration: none;
+    background-color: #a82c2c;
+    color: rgb(252, 5, 5);
+   
+}
+
+.badge {
+    text-decoration: none;
     border: none;
-    padding: 12px 25px;
-    border-radius: 6px;
+    border-radius: 10px;
+    padding: 5px;
     cursor: pointer;
     font-weight: bold;
 }
+.user {
+    color: rgb(0, 0, 0);
+}
 
-.badge-inativo {
+.admin {
+    color: #a38407;
+
+}
+
+.cadastro {
+    
+    margin-top: auto;
+    display: inline-block;
+    text-align: right;
+    background-color: #004a8d;
+    color: white;
+    padding: 10px;
     text-decoration: none;
-    background-color: #c22222;
-    color: rgb(255, 255, 255);
-    border: none;
-    padding: 12px 25px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-weight: bold;
+    border-radius: 4px;
+    transition: background 0.3;
+
+}
+
+.cadastro:hover {
+    background-color: #003366;
 }

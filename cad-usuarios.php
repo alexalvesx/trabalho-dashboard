@@ -8,7 +8,7 @@
 
 <body>
     <div class="dashboard-container">
-    <?php include 'menu.php'; ?>   
+        <?php include 'menu.php'; ?>
         <main>
             <section class="card-form">
                 <div class="form-header">
@@ -43,7 +43,7 @@
                     </div>
 
                     <div class="form-action">
-                        <button type="submit" class="btn-save">Finalizar Cadastro</button>
+                        <button type="submit" class="btn-save"><i class="fa-solid fa-floppy-disk"></i> Finalizar Cadastro</button>
                         <a href="index.php" class="btn-cancel">Cancelar</a>
                     </div>
 
