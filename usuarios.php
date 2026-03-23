@@ -9,12 +9,14 @@
     <div class="dashboard-container">
     <?php include 'menu.php'; ?>  
 <main>
-<div class="header-contente">
-    <h2>Gestão de Usuários</h2>
-    <p>Visualize e gerencie as permissões de usuário do sistema.</p>
-</div>
+    <div class="header-content">
+        <div class="header-title">
+        <h2>Gestão de Usuários</h2>
+        <p>Visualize e gerencie as permissões de usuário do sistema.</p>
+    </div>
 
-    <p type="button"><a class="cadastro" href="cad-usuarios.php">Cadastro de Usuários</a></p>
+    <a href="cad-usuarios.php" class="btn-add"><i class="fa-solid fa-plus"></i>Adicionar Usuário</a>
+    </div>
         <table>
             <thead>
                 <tr>

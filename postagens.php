@@ -24,9 +24,9 @@
                         <th>Conteúdo</th>
                         <th>Categoria</th>
                         <th>Status</th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
+                        <th>Editar</th>
+                        <th>Excluir</th>
+                        <th>Registro</th>
                     </tr>
                 </thead>
                 <tbody>
