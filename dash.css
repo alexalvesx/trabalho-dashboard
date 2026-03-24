@@ -295,9 +295,9 @@ input:focus {
 .btn-add {
     background-color: #004a8d;
     color: white;
-    text-align: right;
     border: none;
     padding: 10px 20px;
+    border-radius: 4px;
     cursor: pointer;
     font-size: 14px;
     text-decoration: none;
@@ -310,6 +310,6 @@ input:focus {
 .header-content {
     display: flex;
     justify-content: space-between; /* Espaço entre o título e o botão */
-    align-items: center;
+    align-items:center;
     margin-bottom: 20px;
 }

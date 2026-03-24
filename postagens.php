@@ -15,7 +15,7 @@
                 <p>Visualize e gerencie as postagens.</p>
             </div>
 
-            <p type="button"><a class="cadastro" href="#">Cadastro de Postagens</a></p>
+            <p type="button"><a class="cadastro" href="cad-postagens.php">Cadastro de Postagens</a></p>
             <table>
                 <thead>
                     <tr>
