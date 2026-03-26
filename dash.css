@@ -252,6 +252,10 @@ input:focus {
     font-weight: bold;
 }
 
+.btn-save:hover {
+    background-color: #058d3e;
+}
+
 .btn-cancel {
     text-decoration: none;
     background-color: #faf4f4;
@@ -264,7 +268,8 @@ input:focus {
 }
 
 .btn-cancel:hover {
-    color: red;
+    color: white;
+    background-color: #991b1b;
 }
 
 .ativo {
