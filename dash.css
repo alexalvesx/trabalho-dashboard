@@ -133,10 +133,12 @@ footer {
 }
 
 /*Container da Tabela */
-.table-resposive {
+.table-responsive {
+    width: 100; /* modificado */
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-collapse: collapse;
     overflow: hidden;
 }
 
@@ -173,6 +175,10 @@ tbody tr:hover {
     /*Destaque suave ao passar o omouse */
 }
 
+td.acoes, th.acoes{
+    text-align: center;
+    vertical-align: center;
+}
 .btn-icon {
     background: none;
     border: none;
@@ -311,5 +317,6 @@ input:focus {
     display: flex;
     justify-content: space-between; /* Espaço entre o título e o botão */
     align-items:center;
-    margin-bottom: 20px;
+    width: 100%;
+    margin-bottom: 10px;
 }

@@ -16,7 +16,7 @@
                     <p>Visualize e gerencie as permissões de usuário do sistema.</p>
                 </div>
                 
-                <a href="cad-usuarios.php" class="btn-add"><i class="fa-solid fa-plus"></i>Adicionar Usuário</a>
+                <a href="cad-usuarios.php" class="btn-add"><i class="fa-solid fa-plus"></i> Adicionar Usuário</a>
                 
             </div>
             <table class="table-responsive">
@@ -27,9 +27,9 @@
                         <th>E-mail</th>
                         <th>Acesso</th>
                         <th>Status</th>
-                        <th>Editar</th>
-                        <th>Excluir</th>
-                        <th>Registro</th>
+                        <th class="acoes">Editar</th>
+                        <th class="acoes">Excluir</th>
+                        <th class="acoes">Registro</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -49,9 +49,9 @@
                             echo '<span class="badge user">Usuário Comum</span>';
                         } ?></td>
                         <td><span class="badge ativo">Ativo</span></td>
-                        <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></td>
-                        <td><button class="btn-icon"><i class="fa-solid fa-circle-xmark"></i></td>
-                        <td><button class="btn-icon"><i class="fa-solid fa-file-lines"></i></td>
+                        <td class="acoes"><button class="btn-icon"><i class="fa-solid fa-pen"></i></td>
+                        <td class="acoes"><button class="btn-icon"><i class="fa-solid fa-circle-xmark"></i></td>
+                        <td class="acoes"><button class="btn-icon"><i class="fa-solid fa-file-lines"></i></td>
                     </tr>
                     <tr>
                         <td>02</td>
@@ -69,9 +69,9 @@
                             echo '<span class="badge user">Usuário Comum</span>';
                         } ?></td>
                         <td><span class="badge ativo">Ativo</span></td>
-                        <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></td>
-                        <td><button class="btn-icon"><i class="fa-solid fa-circle-xmark"></i></td>
-                        <td><button class="btn-icon"><i class="fa-solid fa-file-lines"></i></td>
+                        <td class="acoes"><button class="btn-icon"><i class="fa-solid fa-pen"></i></td>
+                        <td class="acoes"><button class="btn-icon"><i class="fa-solid fa-circle-xmark"></i></td>
+                        <td class="acoes"><button class="btn-icon"><i class="fa-solid fa-file-lines"></i></td>
                     </tr>
                     <tr>
                         <td>03</td>
@@ -89,16 +89,16 @@
                             echo '<span class="badge user">Usuário Comum</span>';
                         } ?></td>
                         <td><span class="badge inativo">Inativo</span></td>
-                        <td><button class="btn-icon"><i class="fa-solid fa-pen"></i></td>
-                        <td><button class="btn-icon"><i class="fa-solid fa-circle-xmark"></i></td>
-                        <td><button class="btn-icon"><i class="fa-solid fa-file-lines"></i></td>
+                        <td class="acoes"><button class="btn-icon"><i class="fa-solid fa-pen"></i></td>
+                        <td class="acoes"><button class="btn-icon"><i class="fa-solid fa-circle-xmark"></i></td>
+                        <td class="acoes"><button class="btn-icon"><i class="fa-solid fa-file-lines"></i></td>
                     </tr>
                 </tbody>
-                <tfooter>
+                <tfoot>
                     <tr>
-                        <td colspan="6" align="right">Informações da quantidade de registros... </td>
+                        <td colspan="8" align="right">Informações da quantidade de registros... </td>
                     </tr>
-                </tfooter>
+                </tfoot>
             </table>
 
         </main>
