@@ -18,13 +18,13 @@
                     <a href="#" class="btn">Acessar</a>
                 </article>
                 <article>
-                    <h2>Módulo de Usuários</h2>
-                    <p>Gerencie os acessos e permissões do sistema nesta área.</p>
+                    <h2>Relatórios de Vendas</h2>
+                    <p>Acompanhe os gráficos de desempenho deste mês.</p>
                     <a href="#" class="btn">Acessar</a>
                 </article>
                 <article>
-                    <h2>Módulo de Usuários</h2>
-                    <p>Gerencie os acessos e permissões do sistema nesta área.</p>
+                    <h2>Configurações do servidor</h2>
+                    <p>Ajuste as portas do Apache e o banco de dados.</p>
                     <a href="#" class="btn">Acessar</a>
                 </article>
         </main>

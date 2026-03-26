@@ -46,7 +46,7 @@
                             echo '<span class="badge admin">Administrador</span>';
                         } else {
                             // Se for qualquer outro valor, renderiza o Usuário
-                            echo '<span class="badge user">Usuário Comum</span>';
+                            echo '<span class="badge user">Usuário</span>';
                         } ?></td>
                         <td><span class="badge ativo">Ativo</span></td>
                         <td class="acoes"><button class="btn-icon"><i class="fa-solid fa-pen"></i></td>
@@ -59,14 +59,14 @@
                         <td>eric@unifev.edu.br</td>
                         <td><?php
                         // Simulando o nível que viria do banco de dados
-                        $nivelAcesso = 2;
+                        $nivelAcesso = 1;
 
-                        if ($nivelAcesso == 2) {
+                        if ($nivelAcesso == 1) {
                             // Se for 2, renderiza o HTML do Admin
-                            echo '<span class="badge admin">Administrador</span>';
+                            echo '<span class="badge editor">Editor</span>';
                         } else {
                             // Se for qualquer outro valor, renderiza o Usuário
-                            echo '<span class="badge user">Usuário Comum</span>';
+                            echo '<span class="badge user">Usuário</span>';
                         } ?></td>
                         <td><span class="badge ativo">Ativo</span></td>
                         <td class="acoes"><button class="btn-icon"><i class="fa-solid fa-pen"></i></td>
@@ -86,7 +86,7 @@
                             echo '<span class="badge admin">Administrador</span>';
                         } else {
                             // Se for qualquer outro valor, renderiza o Usuário
-                            echo '<span class="badge user">Usuário Comum</span>';
+                            echo '<span class="badge user">Usuário</span>';
                         } ?></td>
                         <td><span class="badge inativo">Inativo</span></td>
                         <td class="acoes"><button class="btn-icon"><i class="fa-solid fa-pen"></i></td>

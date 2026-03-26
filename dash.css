@@ -304,8 +304,12 @@ input:focus {
 
 .admin {
     color: #a38407;
-
 }
+
+.editor {
+    color:rgb(98, 39, 153);
+}
+
 
 .btn-add {
     background-color: #004a8d;
