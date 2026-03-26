@@ -268,16 +268,25 @@ input:focus {
 }
 
 .ativo {
-    text-decoration: none;
-    background-color: #16b660;
-    color: rgb(21, 105, 4);
+    background-color: #d1fae5; /* Fundo verde bem claro */
+    color: #065f46;            /* Texto verde escuro para contraste */
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-block;
   
 }
 
 .inativo {
     text-decoration: none;
-    background-color: #a82c2c;
-    color: rgb(252, 5, 5);
+    background-color: #fee2e2;
+    color: #991b1b;
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-block;
    
 }
 
@@ -286,8 +295,8 @@ input:focus {
     border: none;
     border-radius: 10px;
     padding: 5px;
-    cursor: pointer;
-    font-weight: bold;
+    cursor: default;
+    letter-spacing: 0.5px;
 }
 .user {
     color: rgb(0, 0, 0);
@@ -319,4 +328,8 @@ input:focus {
     align-items:center;
     width: 100%;
     margin-bottom: 10px;
+}
+
+.btn-icon:hover { 
+color: #ffcc00; 
 }
