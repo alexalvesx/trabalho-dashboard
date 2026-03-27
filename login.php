@@ -8,12 +8,12 @@
 
 <body>
     <div class="dashboard-container">
-        
+
         <main>
             <section class="card-form">
                 <div class="form-header">
                     <h2><i class="fa-solid fa-user"></i> Login </h2>
-                    
+
                 </div>
 
                 <form action="insere-usuario.php" method="POST">
@@ -38,7 +38,6 @@
             </section>
         </main>
     </div>
-    
 </body>
 
 </html>

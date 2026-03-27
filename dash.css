@@ -171,7 +171,7 @@ tbody tr:nth-child(even) {
 }
 
 tbody tr:hover {
-    background-color: #f1f7ff;
+    background-color: #d1d7df;
     /*Destaque suave ao passar o omouse */
 }
 
@@ -182,7 +182,7 @@ td.acoes, th.acoes{
 .btn-icon {
     background: none;
     border: none;
-    color: #004a8d;
+    color: #004a8d; 
     cursor: pointer;
     font-size: 16px;
 }

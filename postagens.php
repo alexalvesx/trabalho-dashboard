@@ -14,7 +14,7 @@
                 <div class="header-contente">
                     <h2>Gestão de Postagens</h2>
                     <p>Visualize e gerencie as postagens.</p>
-                 </div>
+                </div>
 
                 <a href="cad-usuarios.php" class="btn-add"><i class="fa-solid fa-plus"></i> Adicionar Postagem</a>
             </div>
